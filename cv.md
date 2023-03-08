@@ -1,4 +1,4 @@
-<image src="/rsschool-cv/images/i.jpg" alt="тут должна быть моя фотография" width = 300px>
+
 # Babaskina Sofiya  
 
 ---  
