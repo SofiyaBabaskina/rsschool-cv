@@ -1,3 +1,4 @@
+<image src="/rsschool-cv/images/i.jpg" alt="тут должна быть моя фотография" width = 300px>
 # Babaskina Sofiya
 ***
 ### E-mail: liarhae@gmail.com
@@ -18,8 +19,8 @@
 * [Web-game "Poke"](https://jsfiddle.net/rhaelias/4suramtv/18/)
 
 ### Education 
-| Place of study            |      Sphere                  |     Date    |
-| ------------              | ------------                 |  ---------  |
+|Place of study             |      Sphere                  |     Date    |
+| :------------             | :------------                | :---------  |
 | BSU Economics             |  Logistics                   | 2022 - 2026 |
 | Sofiya Kovaleva           |  Web-design                  |  2 months   | 
 | Result School             |  FrontEnd Development        |  2 months   |
