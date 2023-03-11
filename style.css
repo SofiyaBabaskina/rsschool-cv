@@ -107,7 +107,7 @@ p {
 .skills {
     margin: 10px;
     position: relative;
-    bottom: 810px;
+    bottom: 800px;
     left: 420px;
     width: 400px;
     max-height: 300px;
@@ -123,7 +123,7 @@ p {
 
 .education {
     position: relative;
-    bottom: 690px;
+    bottom: 680px;
     width: 840px;
     left: -20px;
 }
