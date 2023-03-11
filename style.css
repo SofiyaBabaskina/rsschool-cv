@@ -1,0 +1,151 @@
+body { /* правила ко всем элементам этого тега */
+    color: rgb(255, 255, 255) ; 
+    background: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: normal;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+
+a { /* правила к ссылкам */
+    color: rgb(213, 62, 255);
+    text-decoration: none;
+    margin: 5px;
+}
+
+a:hover { /* псевдо-селектор, правило при наведении */
+    text-decoration: underline; 
+}
+
+a:active { /* псевдо-селектор, правило при нажатии */
+    color: rgb(25, 136, 68);
+}
+
+.mainImage {
+    width: 390px;
+    border-radius: 50%;
+    margin: 0px;
+    position: relative;
+    bottom: 5px;
+    border: 3px solid rgb(42, 222, 204);
+}
+
+.container {
+    max-width: 860px;
+    max-height: 1450px;
+    margin: 0 auto;
+    padding: 50px;
+    border: 5px solid rgb(90, 8, 88);   
+    border-radius: 20px;
+}
+
+.card {
+    background: #000000;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 20px;
+    border: 3px solid rgb(121, 253, 253);
+    position: normal;
+    left: 0;
+    right: 0;
+}
+
+h1 {
+    color: rgb(78, 255, 214);
+    margin: 0px;
+    padding-bottom: 20px;
+    position: relative;
+    width: 400px;
+}
+
+h3 {
+    color: rgb(42, 165, 147);
+}
+
+p {
+    margin: 5px;
+}
+
+
+.table {
+    width: 100%;  /* относительно своего блока */
+  }
+
+.table td {
+    padding-bottom: 5px;
+    border-radius: 5px 0px 5px 0px;
+}
+
+.table thead {
+    font-weight: 700;
+}
+
+.table th {
+    font-weight: 500;
+    color: #676767;
+}
+
+
+.table tbody tr:nth-child(odd){
+	background: rgb(157, 53, 192);
+}
+
+.contacts {
+    position: relative;
+    left: -20px;
+    width: 350px;
+}
+
+.info {
+    position: relative;
+    bottom: 830px;
+    left: 420px;
+    width: 400px;
+    
+}
+
+.skills {
+    margin: 10px;
+    position: relative;
+    bottom: 800px;
+    left: 420px;
+    width: 400px;
+    max-height: 300px;
+} 
+
+
+.experience {
+    position: relative;
+    bottom: 710px;
+    left: -20px;
+    width: 350px;
+} 
+
+.education {
+    position: relative;
+    bottom: 680px;
+    width: 840px;
+    left: -20px;
+}
+
+.circle {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background: rgb(7, 45, 41);
+    position: relative;
+    bottom: 1420px;
+    left: 410px;
+    filter: blur(50px);
+}
+
+.circle2 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: rgb(55, 5, 57);
+    position: relative;
+    bottom: 1500px;
+    left: 610px;
+    filter: blur(70px);
+}
