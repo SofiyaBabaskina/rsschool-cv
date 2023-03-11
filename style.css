@@ -1,13 +1,15 @@
 body { /* правила ко всем элементам этого тега */
-    background: rgb(239, 239, 239);
-    font-size: 18px;
+    background: rgb(215, 215, 215);
+    font-size: 20px;
     font-weight: normal;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
+  }
+
 
 a { /* правила к ссылкам */
     color: rgb(0, 0, 0);
     text-decoration: none;
+    margin: 5px;
 }
 
 a:hover { /* псевдо-селектор, правило при наведении */
@@ -19,27 +21,42 @@ a:active { /* псевдо-селектор, правило при нажати�
 }
 
 .mainImage {
-    width: 250px;
-    border-radius: 10%;
+    width: 390px;
+    border-radius: 20px;
     margin: 10px;
+    position: relative;
+    bottom: 5px;
+   
 }
 
 .container {
-    max-width: 800px;
-    margin: auto; /* центривование */
+    max-width: 860px;
+    max-height: 1420px;
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid black;   
 }
 
 .card {
     padding: 20px;
     margin: 10px;
     border-radius: 20px;
-
+    position: normal;
+    left: 0;
+    right: 0;
 }
 
 h1 {
     margin: 10px;
     padding-bottom: 20px;
+    position: relative;
+    width: 400px;
 }
+
+p {
+    margin: 5px;
+}
+
 
 .table {
     width: 100%;  /* относительно своего блока */
@@ -53,40 +70,74 @@ h1 {
     font-weight: 700;
 }
 
-.table tr { /* even - каждая четная строка, odd - нечетная */
-    
-}
-
 .table th {
     font-weight: 500;
     color: #676767;
 }
 
+.table tbody tr:nth-child(odd){
+	background: rgb(200, 243, 236);
+}
+
 .contacts {
-    background: rgb(167, 155, 235);
-    position: absolute;
-    bottom: 300px;
-    right: 240px;
-    width: 300px;
+    background: rgb(177, 173, 217);
+    position: relative;
+    right: 100px;
+    width: 350px;
 }
 
 .info {
-    background: rgb(121, 184, 145);
-    width: 100;
+    background: rgb(173, 200, 217);
+    position: relative;
+    bottom: 830px;
+    left: 400px;
+    width: 400px;
+    
 }
 
 .skills {
-    background: rgb(167, 155, 235);
-}
+    background: rgb(173, 188, 217);
+    position: relative;
+    bottom: 830px;
+    left: 400px;
+    width: 400px;
+} 
+
 
 .experience {
-    background: rgb(121, 184, 145);
-}
+    background: rgb(191, 166, 208);
+    position: relative;
+    bottom: 730px;
+    right: 100px;
+    width: 350px;
+} 
 
 .education {
-    background: rgb(167, 155, 235);
+    background: rgb(150, 193, 183);
+    position: relative;
+    bottom: 730px;
+    width: 800px;
+    right: 100px;
 }
 
+.circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: rgb(174, 207, 222);
+    position: relative;
+    bottom: 1400px;
+    left: 450px;
+    /* filter: blur(50px); */
+}
 
- 
- /*  */
+.circle2 {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    background: rgb(206, 184, 215);
+    position: relative;
+    bottom: 1480px;
+    left: 530px;
+    /* filter: blur(70px); */
+}
